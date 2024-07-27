@@ -1,6 +1,6 @@
 #include "curl_function.h"
 #include <iostream>
-#include <curl/curl.h>
+#include </home/rage/code/anaconda3/include/curl/curl.h>
 #include <string>
 
 using namespace std;
@@ -12,7 +12,7 @@ size_t WriteCallback(void* contents, size_t size, size_t nmemb, string* output){
   return totalSize;
 }
 
-string get_price(const string& ticker symbol, const string& api) {
+string get_price(const string& ticker_symbol, const string& api) {
   CURL* curl = curl_easy_init();
   if(!curl) {
     cerr << "Failed to initialize cURL." << endl;

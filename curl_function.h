@@ -2,7 +2,7 @@
 #define CURL_FUNCTIONS_H
 
 #include <string> // necessary library headers
-#include <jsoncpp/json/json.h>
+#include </home/rage/vcpkg/packages/jsoncpp_x64-linux/include/json/json.h>
 
 using namespace std;
 
